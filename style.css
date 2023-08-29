@@ -1,145 +1,262 @@
-*{
-    margin: 0;
+@media screen and (min-device-width: 435px){ 
+    *{
+        margin: 0;
+    }
+    html{
+        border: solid 70px;
+        border-color: rgb(26, 26, 26);
+        background-color: rgb(232, 232, 232);
+        font-family: 'VT323', monospace;
+    
+        
+    
+    }
+    
+    .navbar{
+        margin-top: 60px;
+        display: flex;
+        justify-content: left;
+    }
+    
+    a{
+        text-decoration: none;
+        color: black;   
+    }
+    ul{
+        font-size: 26px;
+    
+    
+    }
+    
+    .a1{
+        
+        margin-left: 20px;
+        margin-right: 620px;
+        font-size: 26px;
+        display: inline-block;
+        
+    }
+    .a2{
+        margin-right: 80px;
+        font-size: 26px;
+        display: inline-block;
+        
+    }
+    .a3{
+        margin-right: 80px;
+        font-size: 26px;
+        display: inline-block;
+        
+    }
+    .a4{
+        font-size: 26px;
+        display: inline-block;
+        
+    }
+    
+    li{
+        padding-left: 30px;
+        font-size: 60px;
+        margin: 7px;
+        
+    }
+    
+    
+    .upper{
+        padding-top: 120px;
+        padding-left: 90px;
+        
+    }
+    .lower{
+        padding-left: 90px;
+        padding-bottom: 80px;
+    }
+
+    .project{
+        padding: 80px 50px 80px 90px;
+    }
+    
+    
+    
+    
+    .container {
+        display: flex;
+        align-items: center;
+        padding-top: 0;
+      }
+      
+    .container img {
+        margin-top: 70px;
+        margin-right: 270px; /* Adjust the spacing between the image and text */
+        margin-bottom: 100px;
+        margin-left: 100px;
+        border-radius: 20%;
+        width: 350px;
+        height: 230px;
+    
+      }
+    
+      
+    
+    
+    h1{
+        padding: 50px;
+        background-color: rgb(232, 232, 232);
+        font-size: 100px;
+        line-height: 10px;
+        font-family: 'VT323', monospace;
+        font-size: 100px;
+    }
+    
+    
+    .web{
+        width: 200px;
+        height: 160px;
+        margin-top: 150px;
+        margin-left: 50px;
+    }
+
+    .mobile{
+        display: none;
+    }
+    
+    #id{
+        padding-bottom: 200px;
+    }
+    
+    
+    .columns {
+        display: flex;
+    }
+    
+    .column {
+        flex: 1;
+        list-style-type: none;
+        padding-left: 120px;
+        margin: 0;
+    }
+    
+    .column li {
+        margin-bottom: 10px; /* Adjust the spacing between points */
+        position: relative;
+        font-size: 60px;
+    }
+    
+    
+    .column li::before {
+        content: "\2022"; /* Bullet point character */
+        position: absolute;
+        left: -5px; /* Adjust the distance of the bullet point from the content */
+        font-size: inherit;
+    }
+    
+    .python{
+        padding-left: 80px;
+        list-style-type: none;
+        padding-bottom: 30px;
+    }
 }
-html{
-    border: solid 70px;
-    border-color: rgb(26, 26, 26);
-    background-color: rgb(232, 232, 232);
-    font-family: 'VT323', monospace;
+
+
+
+@media only screen and (max-width: 435px) {
+
+    html{
+        border: solid 35px;
+        border-color: rgb(26, 26, 26);
+        background-color: rgb(232, 232, 232);
+        font-family: 'VT323', monospace;
+
+    
+    }
+
+    .navbar{
+        display: none;
+    }
+
+    .upper{
+        padding-top: 1rem;
+        padding-left: 1rem;
+    }
+    .lower{
+        padding: 0px 0px 0px 0px;
+        padding-left: 1rem;
+    }
+
+    
+    .web{
+        display: none;
+    }
+
+    .mobile{
+        
+        width: 150px;
+        height: 120px;
+        margin: 20px 0px 10px 30px;
+        border-radius: 20%;
+        align-items: center;
+
+    }
+
+    #id{
+        padding-bottom: 100px ;
+    }
+
+    .project{
+        padding: 0px 0px 0px 16px;
+    }
+    
+
+    h1{
+        padding: 50px;
+        background-color: rgb(232, 232, 232);
+        padding: 0px 0px 0px 0px;
+        
+        line-height: 10px;
+        font-family: 'VT323', monospace;
+        font-size: 30px;
+    }
+
+    .name{
+        padding-top:40px ;
+        padding-left: 10px;
+    }
+
 
     
 
-}
-
-.navbar{
-    margin-top: 60px;
-    display: flex;
-    justify-content: left;
-}
-
-a{
-    text-decoration: none;
-    color: black;   
-}
-ul{
-    font-size: 26px;
+    body {
+        border: none;
+        
+        background-color: rgb(232, 232, 232);
+        
+    }
 
 
-}
 
-.a1{
-    
-    margin-left: 20px;
-    margin-right: 620px;
-    font-size: 26px;
-    display: inline-block;
-    
-}
-.a2{
-    margin-right: 80px;
-    font-size: 26px;
-    display: inline-block;
-    
-}
-.a3{
-    margin-right: 80px;
-    font-size: 26px;
-    display: inline-block;
-    
-}
-.a4{
-    font-size: 26px;
-    display: inline-block;
-    
-}
 
-li{
-    padding-left: 30px;
-    font-size: 60px;
-    margin: 7px;
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 
 
-.upper{
-    padding-top: 120px;
-    padding-left: 90px;
-}
-.lower{
-    padding-left: 90px;
-}
-
-
-
-
-.container {
-    display: flex;
-    align-items: center;
-    padding-top: 0;
-  }
-  
-.container img {
-    margin-top: 70px;
-    margin-right: 270px; /* Adjust the spacing between the image and text */
-    margin-bottom: 100px;
-    margin-left: 100px;
-    border-radius: 20%;
-    width: 350px;
-    height: 230px;
-
-  }
-
-  
-
-
-h1{
-    padding: 50px;
-    background-color: rgb(232, 232, 232);
-    font-size: 100px;
-    line-height: 10px;
-    font-family: 'VT323', monospace;
-    font-size: 100px;
-}
-
-
-img{
-    width: 200px;
-    height: 160px;
-    margin-top: 150px;
-    margin-left: 50px;
-}
-
-
-
-.columns {
-    display: flex;
-}
-
-.column {
-    flex: 1;
-    list-style-type: none;
-    padding-left: 120px;
-    margin: 0;
-}
-
-.column li {
-    margin-bottom: 10px; /* Adjust the spacing between points */
-    position: relative;
-    font-size: 60px;
-}
-
-
-.column li::before {
-    content: "\2022"; /* Bullet point character */
-    position: absolute;
-    left: -5px; /* Adjust the distance of the bullet point from the content */
-    font-size: inherit;
-}
-
-.python{
-    padding-left: 80px;
-    list-style-type: none;
-}
+ 
 
   
   
